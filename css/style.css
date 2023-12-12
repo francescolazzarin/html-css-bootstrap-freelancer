@@ -9,6 +9,9 @@ nav ul{
     margin-block: 0;
     padding-left: 0;
 }
-.jumbotron{
+.jumbotron,#about{
     background-color: rgb(26, 189, 156);
+}
+.freelancer,.student{
+    text-align: left;
 }
