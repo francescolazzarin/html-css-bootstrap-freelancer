@@ -1,0 +1,11 @@
+header{
+    background-color: rgb(43, 61, 79);
+}
+
+ul li{
+    list-style-type: none;
+}
+nav ul{
+    margin-block: 0;
+    padding-left: 0;
+}
