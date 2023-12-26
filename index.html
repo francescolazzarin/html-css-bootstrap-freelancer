@@ -8,6 +8,8 @@
     <!-- link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- link css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -25,20 +27,20 @@
                 </li>
                 <ul class="d-md-flex d-none">
                     <li>
-                        <a class="link-underline-opacity-0 link-light" href="">portfolio</a>
+                        <a class="link-underline-opacity-0 link-light" href="#portfolio">portfolio</a>
                     </li>
                     <li class="mx-3">
-                        <a class="link-underline-opacity-0 link-light" href="">about</a>
+                        <a class="link-underline-opacity-0 link-light" href="#about">about</a>
                     </li>
                     <li>
-                        <a class="link-underline-opacity-0 link-light" href="">contact</a>
+                        <a class="link-underline-opacity-0 link-light" href="#contact-me">contact</a>
                     </li>
                 </ul>
             </ul>
         </nav>
         <div class="jumbotron pb-3">
             <div class="container">
-                <figure class="w-50 mx-auto">
+                <figure class="w-25 mx-auto">
                     <img src="./img/avatar.svg" alt="">
                 </figure>
                 <h1 class="fs-1">start bootsrtrap</h1>
@@ -55,7 +57,7 @@
         </div>
     </header>
     <main>
-        <section class="container mx-auto text-center text-uppercase">
+        <section id="portfolio" class="container text-center text-uppercase">
             <h2 class="my-3">portfolio</h2>
             <hr class="w-25 opacity-100 d-inline-block border align-middle border-3 border-black">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -84,8 +86,8 @@
             </div>
         </section>    
         <section id="about" class="py-4">
-            <div class="container text-center text-white class
-             pt-3">
+            <div class="container text-center text-white 
+            pt-3">
             <h2 class="text-uppercase">about</h2>
             <hr class="w-25 opacity-100 d-inline-block border align-middle border-3 border-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -109,11 +111,59 @@
                   <a class="align-middle link-underline-opacity-0 link-light" href="">download</a>
                   
             </button>
-
-           
+        </section>
+        <section id="contact-me" class="py-5">
+            <div class="container text-center">
+                    <h2 class="text-uppercase">
+                    contact me
+                    </h2>
+                    <hr class="w-25 opacity-100 d-inline-block border align-middle border-3 border-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <hr class="w-25 opacity-100 d-inline-block align-middle border border-3 border-black">
+                    <ul class="list-group list-group-flush text-capitalize w-75 mx-auto text-start">
+                        <li class="list-group-item border-4 border-top-0 border-start-0 border-end-0">name</li>
+                        <li class="list-group-item border-4 border-top-0 border-start-0 border-end-0">email address</li>
+                        <li class="list-group-item border-4 border-top-0 border-start-0 border-end-0">phone number</li>
+                        <li class="list-group-item pb-5 border-4 border-top-0 border-start-0 border-end-0">message</li>
+                        <li class="mt-5">
+                            <button class="btn btn-contact">
+                                <a class="link-underline-opacity-0 link-light" href="">send</a>
+                            </button>
+                        </li>
+                    </ul>
+                    
+            </div>
 
         </section>
     </main>
+    <footer class="pt-5">
+        <div class="container-fluid text-white mx-0">
+            <div class="row">
+                <div class="mb-5  text-center col-md-4">
+                    <h3 class="text-uppercase">location</h3>
+                    <span class="text-capitalize">2215 jhon daniel drive clark, MO 54243</span>
+                </div>
+                <div class="mb-5 text-center col-md-4">
+                    <h3 class="text-uppercase ">around the web</h3>
+                    <div class="mt-4 d-flex justify-content-center column-gap-3">
+                        <span class="border border-1 border-light rounded-circle p-3"><i class="fs-3 fa-brands fa-facebook-f"></i></span>
+                        <span class="border border-1 border-light rounded-circle p-3"><i class="fs-3 fa-brands fa-google-plus-g"></i></span>
+                        <span class="border border-1 border-light rounded-circle p-3"><i class="fs-3 fa-brands fa-twitter"></i></span>
+                        <span class="border border-1 border-light rounded-circle p-3"><i class="fs-3 fa-brands fa-linkedin-in"></i></span>
+                    </div>
+                </div>
+                <div class="text-center col-md-4">
+                    <h3 class="text-uppercase">about frellancer</h3>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <a class="text-decoration-none text-capitalize start" href="">start bootsrtap</a></p>
+                </div>
+                <div class="mt-5 copyright text-center p-5 w-100">
+                    <h4 class="text-capitalize">copyright <span><i class="fa-regular fa-copyright"></i></span> your website 2019</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>

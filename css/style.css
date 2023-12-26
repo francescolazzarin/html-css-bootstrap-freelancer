@@ -1,7 +1,9 @@
 header{
     background-color: rgb(43, 61, 79);
 }
-
+footer{
+    background-color: rgb(58, 85, 110);
+}
 ul li{
     list-style-type: none;
 }
@@ -9,9 +11,15 @@ nav ul{
     margin-block: 0;
     padding-left: 0;
 }
-.jumbotron,#about{
+.jumbotron,#about,.btn-contact{
     background-color: rgb(26, 189, 156);
 }
 .freelancer,.student{
     text-align: left;
+}
+a.start{
+    color: rgb(26, 189, 156);
+}
+footer div.copyright{
+    background-color: rgb(43, 61, 79);
 }
